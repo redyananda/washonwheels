@@ -12,19 +12,19 @@ const HowItWork = () => {
       </div>
       <div className="how-it-work-container">
         <div className="how-it-work-container-card">
-          <img src="./step-1.png" alt="pict step 1" />
+          <img src="./step-1.webp" alt="pict step 1" />
           <h2>Book & schedule</h2>
           <p>
             Pick your package, set the time and location - all from your phone
           </p>
         </div>
         <div className="how-it-work-container-card">
-          <img src="./step-2.png" alt="pict step 2" />
+          <img src="./step-2.webp" alt="pict step 2" />
           <h2>We pick up or come to you</h2>
           <p>Our team collects your car or comes to your home. Just relax.</p>
         </div>
         <div className="how-it-work-container-card">
-          <img src="./step-3.png" alt="pict step 3" />
+          <img src="./step-3.webp" alt="pict step 3" />
           <h2>Spotless car, ready to go</h2>
           <p>We bring your gleaming car back right on time. Just hop in.</p>
         </div>

@@ -1,0 +1,90 @@
+.why-wow {
+    background-color: #0e3b3b;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 75px);
+}
+
+.why-wow-container-left {
+  align-content: center;
+  width: 90%;
+}
+
+.why-wow-container-left > h2 {
+  font-size: 24px;
+  color: #c9a86a;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+
+.why-wow-container-left > h1 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #F6F3ED;
+  margin-bottom: 20px;
+}
+
+.why-wow-container-left > p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #A9C5BC;
+}
+
+.why-wow-container-right {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.container-right-card {
+  width: 250px;
+  height: 280px;
+  background-color: #11403F;
+  border-radius: 20px;
+}
+
+.container-right-card:hover {
+  opacity: 0.85;
+}
+
+.wow-card-symbol-place {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9FE1CB1F;
+  border-radius: 20px;
+
+}
+
+.wow-card-symbol-place > img {
+  width: 48px;
+
+}
+
+.wow-card-title {
+  color: #F6F3ED;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.wow-card-desc{
+  padding-top: 20px;
+  color: #A9C5BC;
+  font-size: 14px;
+  line-height: 1.6;
+    padding-left: 20px;
+
+}
