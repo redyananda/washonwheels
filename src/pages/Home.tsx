@@ -1,4 +1,4 @@
-import Testimonials from "@/components/Testimonials"
+import Testimonials from "@/components/Results"
 import Hero from "../components/Hero"
 import HowItWork from "../components/HowItWork"
 import Navbar from "../components/Navbar"

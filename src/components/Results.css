@@ -1,0 +1,44 @@
+.results {
+  box-sizing: content-box;
+
+  background-color: #f6f3ed;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 60px;
+  height: calc(100vh - 140px);
+}
+
+.results-header > h2 {
+  font-size: 16px;
+  color: #c9a86a;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  width: 100%;
+  text-align: center;
+}
+
+.results-header > h1 {
+  width: 100%;
+  color: #15201f;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.results-header > p {
+  width: 100%;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 20px;
+  color: #5F5E5A;
+}
+
+.results-slider {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
