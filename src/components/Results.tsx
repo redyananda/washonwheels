@@ -4,7 +4,7 @@ import {
   ReactCompareSliderImage,
 } from "react-compare-slider";
 
-const Testimonials = () => {
+const Results = () => {
   return (
     <div className="results">
       <div className="results-header">
@@ -32,4 +32,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Results;
