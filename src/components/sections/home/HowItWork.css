@@ -4,7 +4,7 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 80px;
-  height: calc(100vh - 160px);
+  min-height: 800px;
 }
 
 .how-it-work-header > h2 {

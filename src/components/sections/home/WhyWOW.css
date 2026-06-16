@@ -4,7 +4,7 @@
     padding-right: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: calc(100vh - 75px);
+    min-height: 800px;
 }
 
 .why-wow-container-left {

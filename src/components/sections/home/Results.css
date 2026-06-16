@@ -4,8 +4,8 @@
   background-color: #f6f3ed;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 60px;
-  height: calc(100vh - 140px);
+  padding-top: 30px;
+  min-height: 820px;
 }
 
 .results-header > h2 {

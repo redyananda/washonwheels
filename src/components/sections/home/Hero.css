@@ -2,11 +2,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 48px;
-  align-items: center;
+  align-items: center; 
   background-color: #0e3b3b;
-  height: 100vh;
-  padding-left: 10%;
-  padding-right: 10%;
+  min-height: 100vh;
+  padding: 0 10%;;
 }
 
 .hero-container {

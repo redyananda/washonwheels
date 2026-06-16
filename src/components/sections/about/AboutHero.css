@@ -1,0 +1,131 @@
+.about {
+  background-color: #f6f3ed;
+  margin-top: 80px;
+  padding: 60px 10%;
+}
+
+.about-header > h2 {
+  font-size: 24px;
+  color: #c9a86a;
+  font-weight: 500;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+.about-header > h1 {
+  font-size: 60px;
+  font-weight: 350;
+  line-height: 1.1;
+  letter-spacing: 0.13em;
+  color: #15201f;
+  margin-bottom: 12px;
+}
+
+.about-header > p {
+  font-size: 24px;
+  line-height: 1.6;
+  color: #5f5e5a;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  margin-top: 60px;
+}
+
+.about-content p {
+  font-size: 20px;
+  line-height: 2;
+  color: black;
+  text-align: justify;
+}
+
+.about-content-right {
+  border-radius: 40px;
+  width: 70%;
+  justify-self: center;
+  background-color: #0e3b3b;
+}
+
+.about-content-right-desc > h2 {
+  font-size: 32px;
+  color: #f6f3ed;
+  padding: 40px 40px;
+  font-weight: 300;
+}
+
+.about-content-right-stats {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-around;
+}
+
+.stats-data > h2 {
+  color: #9fe1cb;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.stats-data > p {
+  margin-top: 0;
+  font-size: 20px;
+  color: #9fe1cb;
+}
+
+.about-footer {
+    margin-top: 100px;
+}
+
+.about-footer > h1 {
+  font-size: 36px;
+  font-weight: 350;
+  line-height: 1.1;
+  letter-spacing: 0.05em;
+  color: #15201f;
+  margin-bottom: 40px;
+}
+
+.about-footer-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.footer-card {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    background-color: #ffffff;
+    border: 1px solid #e6e1d6;
+    border-radius: 24px;
+}
+
+.footer-card-place {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9FE1CB1F;
+  border-radius: 18px;
+  margin-bottom: 24px;
+}
+
+.footer-card-place > img {
+    width: 40px;
+}
+
+.footer-card-title {
+    margin: 0 0 12px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #15201f;
+}
+
+.footer-card-desc {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #5f5e5a;
+}
