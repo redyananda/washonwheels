@@ -14,15 +14,15 @@ const Navbar = () => {
                 <a href="/services">Services</a>
             </li>
             <li className='nav-link'>
-                <a href="#teams">Teams</a>
+                <a href="/teams">Teams</a>
             </li>
             <li className='nav-link'>
                 <a href="#blog">Blog</a>
             </li>
         </ul>
-        <div className='nav-btn-wrapper'>
+        <a className='nav-btn-wrapper' href='/login'>
             <button className='nav-btn'>Login</button>
-        </div>
+        </a>
     </div>
   )
 }
