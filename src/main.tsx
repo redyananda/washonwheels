@@ -8,6 +8,7 @@ import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 import Teams from "./pages/Teams";
 import Login from "./pages/Login";
+import Blog from "./pages/Blog";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,11 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />
   },
+  {
+    path: "/blog",
+    element: <Blog />
+  },
+
 ]);
 
 createRoot(document.getElementById("root")!).render(

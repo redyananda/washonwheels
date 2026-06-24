@@ -17,7 +17,7 @@ const Navbar = () => {
                 <a href="/teams">Teams</a>
             </li>
             <li className='nav-link'>
-                <a href="#blog">Blog</a>
+                <a href="/blog">Blog</a>
             </li>
         </ul>
         <a className='nav-btn-wrapper' href='/login'>
