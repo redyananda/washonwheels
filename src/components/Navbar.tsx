@@ -1,28 +1,31 @@
+import { Link } from 'react-router'
 import './Navbar.css'
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <a href="/" className='navbar-img'>
-            <img src="./logo.png" alt="logo-wow" />
-        </a>
+        <Link to="/" className='navbar-img'>
+            <img src="/logo.png" alt="logo-wow" />
+        </Link>
         <ul className='navbar-nav'>
             <li className='nav-link'>
-                <a href="/about-us">About Us</a>
+                <Link to="/about-us">About Us</Link>
             </li>
             <li className='nav-link'>
-                <a href="/services">Services</a>
+                <Link to="/services">Services</Link>
             </li>
             <li className='nav-link'>
-                <a href="/teams">Teams</a>
+                <Link to="/teams">Teams</Link>
             </li>
             <li className='nav-link'>
-                <a href="/blog">Blog</a>
+                <Link to="/blog">Blog</Link>
             </li>
         </ul>
-        <a className='nav-btn-wrapper' href='/login'>
-            <button className='nav-btn'>Login</button>
-        </a>
+        <div className='nav-btn-wrapper'>
+            <Link to='/login'>
+                <button className='nav-btn'>Login</button>
+            </Link>
+        </div>
     </div>
   )
 }

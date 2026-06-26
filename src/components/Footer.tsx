@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "./Footer.css";
 
 const Footer = () => {
@@ -7,8 +8,8 @@ const Footer = () => {
         ©{new Date().getFullYear()} WashOnWheels. All rights reserved.
       </p>
       <div className="footer-nav">
-        <a href="/about-us">About Us</a>
-        <a href="#contact">Contact</a>
+        <Link to="/about-us">About Us</Link>
+        <Link to="#contact">Contact</Link>
       </div>
     </footer>
   );

@@ -9,6 +9,7 @@ import Services from "./pages/Services";
 import Teams from "./pages/Teams";
 import Login from "./pages/Login";
 import Blog from "./pages/Blog";
+import BlogDetail from "./pages/BlogDetail";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/blog",
     element: <Blog />
+  },
+  {
+    path: "/blogs/:objectId",
+    element: <BlogDetail />
   },
 
 ]);
