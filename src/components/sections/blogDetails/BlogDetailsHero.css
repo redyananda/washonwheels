@@ -82,3 +82,36 @@
   padding: 4px 10px 0 0;
   color: #0e3b3b;
 }
+
+@media (max-width: 768px) {
+  .blog-details-hero {
+    margin-top: 64px;
+    padding: 0 6%;
+  }
+
+  .blog-details-hero > h1 {
+    padding-top: 40px;
+    font-size: 32px;
+  }
+
+  .blog-details-hero > h2 {
+    font-size: 17px;
+  }
+
+  .blog-details-hero-author {
+    width: 100%;
+    gap: 16px;
+  }
+
+  .blog-details-hero-img > img {
+    border-radius: 24px;
+  }
+
+  .blog-details-hero-content {
+    font-size: 17px;
+  }
+
+  .blog-details-hero-content > p:first-child::first-letter {
+    font-size: 60px;
+  }
+}

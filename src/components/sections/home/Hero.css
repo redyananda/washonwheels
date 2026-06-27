@@ -83,3 +83,47 @@
 .hero-img > img {
   height: 640px;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 100px 6% 60px;
+    min-height: auto;
+    row-gap: 40px;
+  }
+
+  .hero-img {
+    order: -1;
+    justify-content: center;
+  }
+
+  .hero-img > img {
+    height: 300px;
+  }
+
+  .hero-container > h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .hero-container > h1 {
+    font-size: 40px;
+  }
+
+  .hero-container > p {
+    font-size: 17px;
+  }
+
+  .hero-btn {
+    width: 100%;
+    gap: 12px;
+    margin-top: 36px;
+  }
+
+  .book-btn,
+  .service-btn {
+    width: 100%;
+    padding: 16px;
+    font-size: 17px;
+  }
+}

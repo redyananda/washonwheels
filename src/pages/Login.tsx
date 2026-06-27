@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
 import LoginHero from "@/components/sections/login/LoginHero"
 
@@ -6,6 +7,7 @@ const Login = () => {
     <div>
         <Navbar />
         <LoginHero />
+        <Footer />
     </div>
   )
 }

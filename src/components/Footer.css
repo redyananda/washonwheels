@@ -30,7 +30,7 @@
   color: #ffffff;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 768px) {
   .footer {
     flex-direction: column;
     justify-content: center;

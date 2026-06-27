@@ -93,3 +93,39 @@
     padding-left: 5%;
     padding-right: 5%;
 }
+
+@media (max-width: 768px) {
+  .testimonials {
+    grid-template-columns: 1fr;
+    padding: 60px 6%;
+    gap: 40px;
+  }
+
+  .testimonials-header {
+    width: 100%;
+  }
+
+  .testimonials-header > h1 {
+    font-size: 38px;
+  }
+
+  .testimonials-header > h2 {
+    font-size: 20px;
+  }
+
+  .testimonials-content {
+    width: 100%;
+    min-width: 0;
+    justify-self: stretch;
+    overflow: hidden;
+  }
+
+  .testimonial-card {
+    min-height: auto;
+  }
+
+  .testimonial-avatar {
+    width: 150px;
+    height: 150px;
+  }
+}

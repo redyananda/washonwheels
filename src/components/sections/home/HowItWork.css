@@ -68,3 +68,36 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .how-it-work {
+    padding: 60px 6% 0;
+    min-height: auto;
+  }
+
+  .how-it-work-header > h1 {
+    font-size: 30px;
+  }
+
+  .how-it-work-header > p {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+
+  .how-it-work-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .how-it-work-container-card {
+    width: 100%;
+    max-width: 320px;
+    min-height: auto;
+    margin-top: 24px;
+  }
+
+  .how-it-work-container-card > h2 {
+    min-height: auto;
+  }
+}

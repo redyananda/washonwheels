@@ -1,0 +1,124 @@
+.create-blog-hero {
+    background-color: #f6f3ed;
+    margin-top: 80px;
+}
+
+.create-blog-hero-container {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    justify-self: center;
+    width: 45%;
+}
+.create-blog-hero-container > h2 {
+  font-size: 20px;
+  color: #c9a86a;
+  font-weight: 500;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+.create-blog-hero-container > h1 {
+  font-size: 48px;
+  font-weight: 350;
+  line-height: 1.1;
+  letter-spacing: 0.05em;
+  color: #15201f;
+  margin-bottom: 12px;
+}
+
+.create-blog-hero-group {
+    margin-top: 30px;
+}
+
+.create-blog-hero-group > p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.create-blog-hero-group input[type="text"] {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 1px solid #a39c8c;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #15201f;
+}
+
+.create-blog-hero-group input[type="text"]:focus {
+    outline: none;
+    border-color: #c9a86a;
+}
+
+.create-blog-hero-group textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px 14px;
+    font-size: 16px;
+    font-family: inherit;
+    border: 1px solid #a39c8c;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #15201f;
+}
+
+.create-blog-hero-group textarea:focus {
+    outline: none;
+    border-color: #c9a86a;
+}
+
+.create-blog-hero-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a39c8c;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #8a8a8a;
+    font-size: 14px;
+}
+
+.create-blog-hero-group input[type="file"]::file-selector-button {
+    margin-right: 14px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #15201f;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.create-blog-hero-publish {
+    margin-top: 40px;
+}
+
+.create-blog-hero-publish > button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #15201f;
+    color: #f6f3ed;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .create-blog-hero {
+    margin-top: 64px;
+  }
+
+  .create-blog-hero-container {
+    width: 88%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .create-blog-hero-container > h1 {
+    font-size: 34px;
+  }
+}

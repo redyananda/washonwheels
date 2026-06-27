@@ -42,3 +42,22 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .results {
+    padding: 30px 6% 60px;
+    min-height: auto;
+  }
+
+  .results-header > h1 {
+    font-size: 30px;
+  }
+
+  .results-header > p {
+    font-size: 16px;
+  }
+
+  .results-slider {
+    margin-top: 28px;
+  }
+}

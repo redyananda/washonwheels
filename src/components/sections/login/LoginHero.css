@@ -1,0 +1,236 @@
+.login-hero {
+  margin-top: 80px;
+  background-color: #e9e4da;
+  min-height: calc(100vh - 160px);
+  justify-items: center;
+  align-content: center;
+}
+
+.login-hero-container {
+  width: 70%;
+  height: 700px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+}
+
+.login-hero-left-container {
+  padding: 60px 50px;
+  background-color: #0e3b3b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #e9e4da;
+}
+
+.login-hero-left-container-title {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.login-hero-left-container-title > p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.login-hero-left-container-title-place {
+  width: 44px;
+  height: 44px;
+  background-color: #9fe1cb1f;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-hero-left-container-title-place > img {
+  width: 24px;
+  height: 24px;
+}
+
+.login-hero-left-container > h1 {
+  margin-top: 90px;
+  font-family: Georgia, serif;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.login-hero-left-container-desc {
+  margin-top: 20px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #b9c6c2;
+}
+
+.login-hero-left-container-list {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.login-hero-left-container-list-content {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.login-hero-left-container-list-symbol {
+  width: 28px;
+  height: 28px;
+  background-color: #9fe1cb1f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9fe1cb;
+}
+
+.login-hero-left-container-list-content > p {
+  font-size: 16px;
+}
+
+.login-hero-left-container-copyright {
+  margin-top: 90px;
+  font-size: 14px;
+  color: #7d918c;
+}
+
+.login-hero-right-container {
+  padding: 60px 60px;
+  background-color: #f6f3ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-hero-right-container > h1 {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #15201f;
+}
+
+.login-hero-right-container-subtitle {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #5f5e5a;
+}
+
+.login-hero-right-container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-hero-right-container-label {
+  margin-top: 28px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #15201f;
+}
+
+.login-hero-right-container-error {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #d92d20;
+}
+
+.login-hero-right-container input[type="email"],
+.login-hero-right-container input[type="password"],
+.login-hero-right-container input[type="text"] {
+  height: 50px;
+  padding: 0 16px;
+  background-color: #ffffff;
+  border: 1px solid #e0dbd0;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #15201f;
+  outline: none;
+}
+
+.login-hero-right-container input[type="email"] {
+  margin-bottom: 0;
+}
+
+.login-hero-right-container input::placeholder {
+  color: #a8a59d;
+}
+
+.login-hero-right-container input:focus {
+  border-color: #2cb1a0;
+}
+
+.login-hero-right-container-password {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-hero-right-container-password > input {
+  width: 100%;
+}
+
+.login-hero-right-container-password > button {
+  position: absolute;
+  right: 14px;
+  top: 15px;
+  background: none;
+  border: none;
+  color: #8a8983;
+  cursor: pointer;
+}
+
+.login-hero-right-container-submit {
+  margin-top: 28px;
+  height: 54px;
+  background-color: #2cb1a0;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #15201f;
+  cursor: pointer;
+}
+
+.login-hero-right-container-submit:hover {
+  background-color: #27a092;
+}
+
+.login-hero-right-container-signup {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 14px;
+  color: #5f5e5a;
+}
+
+.login-hero-right-container-signup > a {
+  font-weight: 600;
+  color: #2cb1a0;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .login-hero {
+    margin-top: 64px;
+    padding: 40px 0;
+    align-content: start;
+  }
+
+  .login-hero-container {
+    width: 88%;
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .login-hero-left-container {
+    display: none;
+  }
+
+  .login-hero-right-container {
+    padding: 40px 32px;
+  }
+}

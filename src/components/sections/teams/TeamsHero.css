@@ -99,4 +99,54 @@
 
 .crew-content-card {
   background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.crew-content-card > img {
+  width: 100%;
+}
+
+.crew-content-card-bio {
+  padding: 10px 10px;
+}
+
+.crew-content-card-bio > h2 {
+  font-weight: 600;
+}
+
+.crew-content-card-bio > p {
+  color: #1d9c89;
+}
+
+@media (max-width: 768px) {
+  .teams {
+    margin-top: 64px;
+    padding: 40px 6%;
+  }
+
+  .teams-head > h1 {
+    font-size: 34px;
+  }
+
+  .teams-content {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 40px;
+    justify-items: center;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .teams-content-card,
+  .teams-content-card > img {
+    width: 100%;
+  }
+
+  .crew-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 40px;
+  }
 }

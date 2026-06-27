@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRandomUser } from "@/lib/randomUser/useRandomUser";
 import "./TeamsHero.css";
 
 const TeamsHero = () => {
@@ -13,13 +13,22 @@ const TeamsHero = () => {
     "QC Inspector",
     "Dispatcher",
     "Crew Lead",
+    "Pickup Driver",
+    "Interior Specialist",
+    "Polisher",
+    "Coating Specialist",
+    "QC Inspector",
+    "Dispatcher",
+    "Crew Lead",
+    "Interior Specialist",
+    "Polisher",
+    "Coating Specialist",
+    "QC Inspector",
+    "Dispatcher",
   ];
 
-  const [index] = useState(() => {
-    const randomIndex = Math.floor(Math.random() * crewRoles.length);
-    return randomIndex;
-  });
-  
+  const { crew } = useRandomUser(18);
+
   return (
     <div className="teams">
       <div className="teams-head">
@@ -61,16 +70,16 @@ const TeamsHero = () => {
         <p>
           The detailers, washers, and drivers who treat your car like their own.
         </p>
-        {}
         <div className="crew-content">
-          <div className="crew-content-card">
-            <h2>Name</h2>
-            <p>{crewRoles[index]}</p>
-          </div>
-          <div className="crew-content-card">
-            <h2>Name</h2>
-            <p>{crewRoles[index]}</p>
-          </div>
+          {crew.map((member, i) => (
+            <div className="crew-content-card" key={member.name + i}>
+              <img src={member.avatar} alt={member.name} />
+              <div className="crew-content-card-bio">
+                <h2>{member.name}</h2>
+                <p>{crewRoles[i % crewRoles.length]}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

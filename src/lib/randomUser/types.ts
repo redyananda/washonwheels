@@ -11,5 +11,4 @@ export interface RandomUserApiResponse {
 export interface CrewMember {
     name: string;
     avatar: string;
-    initials: string;
 }

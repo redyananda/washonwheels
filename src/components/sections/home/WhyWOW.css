@@ -88,3 +88,32 @@
     padding-left: 20px;
 
 }
+
+@media (max-width: 768px) {
+  .why-wow {
+    grid-template-columns: 1fr;
+    padding: 60px 6%;
+    min-height: auto;
+    gap: 40px;
+  }
+
+  .why-wow-container-left {
+    width: 100%;
+  }
+
+  .why-wow-container-left > h1 {
+    font-size: 38px;
+  }
+
+  .why-wow-container-right {
+    grid-template-columns: 1fr;
+  }
+
+  .container-right-card {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 24px;
+  }
+}
