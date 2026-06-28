@@ -95,6 +95,16 @@
     padding: 60px 6%;
     min-height: auto;
     gap: 40px;
+    margin-top: 60px;
+  }
+
+  .container-right-card {
+    justify-items: center;
+  }
+
+  .wow-card-desc {
+    text-align: center;
+    padding: 10px 10px;
   }
 
   .why-wow-container-left {

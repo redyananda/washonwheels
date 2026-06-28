@@ -61,7 +61,7 @@ const CreateBlogHero = () => {
 
       toast.success("Create blog success!");
 
-      navigate("/");
+      navigate("/blog");
     } catch (error) {
       console.log(error);
       toast.error("Create blog failed!");
