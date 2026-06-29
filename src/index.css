@@ -193,6 +193,11 @@
   background-color: #0e3b3b;
   color: #f6f3ed;
   cursor: pointer;
+  border: 2px solid #c9a86a;
+}
+
+.create-blog-admin-only-container-btn:hover {
+  background-color: #c9a86a;
 }
 
 @media (max-width: 768px) {
